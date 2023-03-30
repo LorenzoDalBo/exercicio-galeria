@@ -1,0 +1,36 @@
+:root {
+    --cor-principal: #00ADB5;
+    --cor-fundo: #393E46;
+    --cor-contraste: #222831;
+    --cor-texto: #EEEEEE;
+}
+
+#pagina-cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cadastro-formulario {
+    width: fit-content;
+    height: fit-content;
+    background-color: var(--cor-contraste);
+    display: flex;
+    flex-direction: column;
+    margin-top: 25vh;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    gap: 1em;
+    padding: 24px;
+    border: solid 2px var(--cor-principal);
+}
+
+.campo-cadastro {
+    padding: 0.5em;
+    border: solid 2px var(--cor-contraste);
+    border-radius: 12px;
+}

@@ -1,0 +1,55 @@
+:root {
+    --cor-principal: #00ADB5;
+    --cor-fundo: #393E46;
+    --cor-contraste: #222831;
+    --cor-texto: #EEEEEE;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: var(--cor-texto);
+    background-color: var(--cor-fundo);
+    box-sizing: border-box;
+}
+
+.botao {
+    background-color: var(--cor-principal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border: var(--cor-contraste) solid 2px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--cor-texto);
+}
+
+.seta {
+    box-sizing: border-box;
+    width: 2em;
+    height: 2em;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

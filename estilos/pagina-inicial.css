@@ -1,0 +1,56 @@
+:root {
+    --cor-principal: #00ADB5;
+    --cor-fundo: #393E46;
+    --cor-contraste: #222831;
+    --cor-texto: #EEEEEE;
+}
+
+
+#pagina-inicial {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.lado {
+    height: 90vh;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#lado-imagem {
+    background-image: url("/images/slide1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#lado-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 50%;
+}
+
+#login-titulo {
+    font-size: 2rem;
+}
+
+
+.campo-login {
+    padding: 0.5em;
+    border: solid 2px var(--cor-contraste);
+    border-radius: 12px;
+}
+
+#botao-login {
+    text-decoration: none;
+    color: var(--cor-texto);
+}
+

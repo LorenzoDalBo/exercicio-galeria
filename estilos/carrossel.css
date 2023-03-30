@@ -1,0 +1,52 @@
+:root {
+    --cor-principal: #00ADB5;
+    --cor-fundo: #393E46;
+    --cor-contraste: #222831;
+    --cor-texto: #EEEEEE;
+}
+
+#pagina-carrossel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+#carrossel-container {
+    width: 80vw;
+    height: 75vh;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+
+#carrossel-lista {
+    list-style: none;
+    padding: 0;
+}
+
+#input-imagem {
+    display: none;
+}
+
+#input-imagem-label {
+    cursor: pointer;
+}
+
+.carrossel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 60vh;
+}
+
+.carrossel-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carrossel-elemento-oculto {
+    display: none;
+}
